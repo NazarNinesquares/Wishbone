@@ -801,6 +801,7 @@ body.lock {
 
 @media (max-width: 900px) {
   .header {
+    background-color: #cec4bc;
     position: fixed;
     top: 0;
     left: 0;
@@ -809,7 +810,19 @@ body.lock {
   }
 
   .header__container {
+    display: block;
     padding: 0;
+  }
+
+  .header__box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 50px;
+    padding: 0 15px;
   }
 
   .header__burger {
@@ -892,7 +905,7 @@ body.lock {
 
   .menu.active {
     height: 100vh;
-    padding: 100px 0 20px;
+    padding: 50px 0 20px;
   }
 
   .menu__box {
