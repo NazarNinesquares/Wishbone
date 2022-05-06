@@ -801,7 +801,8 @@ body.lock {
 
 @media (max-width: 900px) {
   .header {
-    background-color: #cec4bc;
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.5);
+            box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.5);
     position: fixed;
     top: 0;
     left: 0;
